@@ -1,8 +1,8 @@
 ;;;;sockets
-(defparameter my-socket (socket-server 4321)) ;server
-(defparameter my-stream (socket-accept my-socket)) ;server
+;;(defparameter my-socket (socket-server 4321)) ;server
+;;(defparameter my-stream (socket-accept my-socket)) ;server
 
-(defparameter my-stream (socket-connect 4321 "127.0.0.1")) ;client
+(defparameter my-stream (socket-connect 4321 "192.168.0.9")) ;client
 
 ;;(print "YO Server!" my-stream);client
 ;;(read my-stream);server
